@@ -41,7 +41,6 @@ public class P {
         try (Scanner sc = new Scanner(file)) {
             int t = sc.nextInt();
             while(t-- > 0){
-
                 System.out.println(new SinhVien
                         (sc.nextLine(), sc.nextLine(), sc.nextLine(), sc.nextLine(), sc.nextDouble()));
             }
