@@ -30,7 +30,7 @@ class Phanso{
         return a;
     }
 
-    public void toiGian(Phanso other){
+    public void toiGian(){
         long k = gcd(this.tuSo, this.mauSo);
         this.tuSo = this.tuSo / k;
         this.mauSo = this.mauSo / k;
@@ -45,7 +45,7 @@ public class Ptit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Phanso a = new Phanso(sc.nextLong(), sc.nextLong());
-        a.toiGian(a);
+        a.toiGian();
         System.out.println(a);
     }
 }

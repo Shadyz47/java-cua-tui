@@ -5,8 +5,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
-
-
 class Racer{
     private String maRacer;
     private String name;
@@ -14,7 +12,7 @@ class Racer{
     private String thoiGian;
 
     public String format(String s){
-        String[] arr = s.split(" ");
+        String[] arr = s.trim().split("\\s+");
         StringBuilder sb = new StringBuilder();
         for(String str : arr){
             sb.append(Character.toUpperCase(str.charAt(0)));
