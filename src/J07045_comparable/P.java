@@ -49,3 +49,7 @@ public class P {
         }
     }
 }
+
+//Số âm: this đứng trước other.
+//0: hai đối tượng bằng nhau theo các tiêu chí so sánh.
+//Số dương: this đứng sau other.

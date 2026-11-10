@@ -1,4 +1,4 @@
-package J07006;
+package J07006_nhi_phan;
 
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
